@@ -1,0 +1,38 @@
+/* Write your CSS here */
+
+.bg-container {
+  background-size: cover;
+  height: 100vh;
+  width: auto;
+  background-color: #ffc2a0;
+  font-family: roboto;
+  margin: 0px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  width: 90%;
+  flex-wrap: wrap;
+}
+
+.heading {
+  color: #ff8542;
+  font-size: 40px;
+}
+
+.todo-card-container {
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
